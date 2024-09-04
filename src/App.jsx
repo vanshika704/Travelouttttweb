@@ -1,5 +1,6 @@
 import "./index.css"
+import Gallery from "./pages/backgroundcarousal";
 function App (){
-  return (<><h1 className="text-9xl font-bold underline">helloji</h1></>)
+  return (<><Gallery/></>)
 }
 export default App;
