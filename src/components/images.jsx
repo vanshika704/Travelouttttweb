@@ -1,6 +1,7 @@
 function Images(){
-    return (<><div className="h-screen bg-zinc-800 flex items-center justify-center">
-
+    return (<>
+    <div className="h-screen bg-zinc-800 flex items-center justify-center">
+    
         <div className="grid grid-cols-6 gap-2 px-16">
       
         

@@ -26,12 +26,12 @@ const Gallery = () => {
     ];
   
     const renderedItems = items.map((item, index) => (
-      <img key={index} src={item} alt={`image-${index}`} className="w-full h-[50vh] sm:h-[50vh] lg:h-[80vh] object-cover shadow-[0 4px 6px rgba(255, 255, 255, 0.3)" />
+      <img key={index} src={item} alt={`image-${index}`} className="w-full h-[96vh] sm:h-[50vh] lg:h-[96vh] object-cover shadow-[0 4px 6px rgba(255, 255, 255, 0.3)" />
     ));
   
     return (
       <div>
-        <div className="relative w-full h-[40vh] sm:h-[40vh] lg:h-[80vh] items-center justify-center shadow-[0 4px 6px rgba(255, 255, 255, 0.3)]">
+        <div className="relative w-full h-[80vh] sm:h-[40vh] lg:h-[96vh] items-center justify-center shadow-[0 4px 6px rgba(255, 255, 255, 0.3)]">
           <AliceCarousel
             animationType="fadeout"
             animationDuration={5000}
