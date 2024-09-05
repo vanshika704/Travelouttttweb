@@ -64,7 +64,7 @@ const Gallery = () => {
             <div className="companyname mb-4 text-2xl sm:text-3xl lg:text-4xl font-bold">
               <img src={logo} alt="logo" className="w-auto mt-0 h-80 sm:w-20 lg:w-96" />
             </div>
-            <div className="discover text-lg sm:text-base lg:text-lg mt-0 mb-10 font-poppins">
+            <div className="discover text-9xl sm:text-base lg:text-lg mt-0 mb-10  font-poppins-bold">
               Discover Life : Don&apos;t Listen To What They Say, Go See
             </div>
             <div className="flex gap-4">
