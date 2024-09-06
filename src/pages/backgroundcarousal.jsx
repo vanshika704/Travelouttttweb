@@ -26,7 +26,7 @@ const Gallery = () => {
     ];
   
     const renderedItems = items.map((item, index) => (
-      <img key={index} src={item} alt={`image-${index}`} className="w-full h-[96vh] sm:h-[50vh] lg:h-[96vh] object-cover shadow-[0 4px 6px rgba(255, 255, 255, 0.3)" />
+      <img key={index} src={item} alt={`image-${index}`} className="w-full h-[96vh] sm:h-[40vh] lg:h-[96vh] object-cover shadow-[0 4px 6px rgba(255, 255, 255, 0.3)" />
     ));
   
     return (
@@ -64,7 +64,7 @@ const Gallery = () => {
             <div className="companyname mb-4 text-2xl sm:text-3xl lg:text-4xl font-bold">
               <img src={logo} alt="logo" className="w-auto mt-0 h-80 sm:w-20 lg:w-96" />
             </div>
-            <div className="discover text-9xl sm:text-base lg:text-lg mt-0 mb-10  font-poppins-bold">
+            <div className="discover text-xl sm:text-xs md:text-xs lg:text-lg mt-0 mb-10  font-poppins-bold">
               Discover Life : Don&apos;t Listen To What They Say, Go See
             </div>
             <div className="flex gap-4">
