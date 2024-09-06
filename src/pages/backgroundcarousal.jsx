@@ -68,10 +68,10 @@ const Gallery = () => {
               Discover Life : Don&apos;t Listen To What They Say, Go See
             </div>
             <div className="flex gap-4">
-              <button className="gallery-button1 bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded-lg font-poppins sm:h-8">
+              <button className="gallery-button1 bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded-lg font-poppins sm:h-8 lg:h-12 mt-5">
                 Contact us
               </button>
-              <button className="gallery-button2 bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded-lg font-poppins sm:h-8">
+              <button className="gallery-button2 bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded-lg font-poppins sm:h-8 lg:h-12 mt-5">
                 Book Now
               </button>
             </div>
