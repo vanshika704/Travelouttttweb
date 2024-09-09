@@ -100,9 +100,71 @@ function Images() {
                 <a href="#" className="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">Budget</a>
               </div>
             </div>
+            <div className="flex flex-col gap-2">
+              <a href="#" className="bg-lime-200">
+                <img
+                  src="src/assets/pexels-tirachard-kumtanom-112571-887828.jpg"
+                  className="hover:translate-x-1 hover:-translate-y-1 transition-transform duration-100 h-80 w-60"
+                  alt="Destination 2"
+                />
+              </a>
+              <a href="#" className="hover:text-lime-200 text-gray-200 font-semibold"> AFRICA</a>
+              <a href="#" className="hover:text-purple-500 text-sm text-gray-400 -mt-1">56.3K successful visits</a>
+              <div className="flex flex-row flex-wrap gap-2">
+                <a href="#" className="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">Book</a>
+                <a href="#" className="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">Budget</a>
+              </div>
+            </div>
+            <div className="flex flex-col gap-2">
+              <a href="#" className="bg-lime-200">
+                <img
+                  src="src/assets/pexels-visit-greenland-108649-360912.jpg"
+                  className="hover:translate-x-1 hover:-translate-y-1 transition-transform duration-100 h-80 w-60"
+                  alt="Destination 2"
+                />
+              </a>
+              <a href="#" className="hover:text-lime-200 text-gray-200 font-semibold"> GREENLAND</a>
+              <a href="#" className="hover:text-purple-500 text-sm text-gray-400 -mt-1">56.3K successful visits</a>
+              <div className="flex flex-row flex-wrap gap-2">
+                <a href="#" className="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">Book</a>
+                <a href="#" className="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">Budget</a>
+              </div>
+            </div>
+            
           </div>
         </div>
+   
+
+<section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 mt-10 h-96">
+  <div className="p-8 md:p-12 lg:px-16 lg:py-24">
+    <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+      <h2 className="text-2xl font-bold text-gray-900 md:text-2xl">
+      TRAVELOUTTTT <br></br> Where Your Dreams Meet Adventure!
+      </h2>
+
+      <p className="hidden text-gray-500 md:mt-4 md:block">
+      Discover a world of endless possibilities with TRAVELOUTTTT, where your dreams turn into unforgettable adventures. Leave the stress behind, embrace freedom, and explore the breathtaking beauty that awaits you. Your journey begins here!
+      </p>
+
+      <div className="mt-4 md:mt-8">
+        <a
+          href="#"
+          className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        >
+          Get Started Today
+        </a>
       </div>
+    </div>
+  </div>
+
+  <img
+    alt=""
+    src="src/assets/pexels-michael-block-1691617-3225517.jpg"
+    className="h-96 w-full object-cover sm:h-2/5"
+  />
+</section>
+      </div>
+      
     </>
   );
 }
