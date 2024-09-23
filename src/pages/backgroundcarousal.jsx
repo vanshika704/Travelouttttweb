@@ -64,14 +64,14 @@ const Gallery = () => {
             <div className="companyname mb-4 text-2xl sm:text-3xl lg:text-4xl font-bold">
               <img src={logo} alt="logo" className="w-auto mt-0 h-80 sm:w-20 lg:w-96 sm:h-40 lg:h-80" />
             </div>
-            <div className="discover text-xl sm:text-xs md:text-xs lg:text-lg mt-0 mb-10 sm:mb-0  font-poppins-bold">
+            <div className="discover text-xl sm:text-xs md:text-xs lg:text-xl mt-0 mb-10 sm:mb-0  font-poppins-bold">
               Discover Life : Don&apos;t Listen To What They Say, Go See
             </div>
             <div className="flex gap-4">
               <button className="gallery-button1 bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded-lg font-poppins sm:h-8 lg:h-12 mt-5">
                 Contact us
               </button>
-              <button className="gallery-button2 bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded-lg font-poppins sm:h-8 lg:h-12 mt-5">
+              <button className="gallery-button2 bg-gray-200 hover:bg-gray-700 text-black  py-2 px-4 rounded-lg font-poppins sm:h-8 lg:h-12 mt-5">
                 Book Now
               </button>
             </div>
