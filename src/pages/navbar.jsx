@@ -30,23 +30,23 @@ function Navbar() {
             </li>
             <li className="nav-item flex items-center space-x-2">
               <FaSearch className="text-gray-200 hover:text-green-400" />
-              <Link className="text-gray-200 hover:text-green-400" to="/">Search All</Link>
+              <Link className="text-gray-200 hover:text-green-400" to="/searchall">Search All</Link>
             </li>
             <li className="nav-item flex items-center space-x-2">
               <FaHotel className="text-gray-200 hover:text-green-400" />
-              <Link className="text-gray-200 hover:text-green-400" to="/">Hotels</Link>
+              <Link className="text-gray-200 hover:text-green-400" to="/hotels">Hotels</Link>
             </li>
             <li className="nav-item flex items-center space-x-2">
               <FaMapSigns className="text-gray-200 hover:text-green-400" />
-              <Link className="text-gray-200 hover:text-green-400" to="/">Things to Do</Link>
+              <Link className="text-gray-200 hover:text-green-400" to="/thingstodo">Things to Do</Link>
             </li>
             <li className="nav-item flex items-center space-x-2">
               <FaUtensils className="text-gray-200 hover:text-green-400" />
-              <Link className="text-gray-200 hover:text-green-400" to="/">Restaurants</Link>
+              <Link className="text-gray-200 hover:text-green-400" to="/Restaurants">Restaurants</Link>
             </li>
             <li className="nav-item flex items-center space-x-2">
               <FaPlane className="text-gray-200 hover:text-green-400" />
-              <Link className="text-gray-200 hover:text-green-400" to="/">Flights</Link>
+              <Link className="text-gray-200 hover:text-green-400" to="/flights">Flights</Link>
             </li>
           </ul>
         </div>
