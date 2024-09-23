@@ -135,8 +135,8 @@ function Images() {
         </div>
    
 
-<section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 mt-10 h-96">
-  <div className="p-8 md:p-12 lg:px-16 lg:py-24">
+<section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 mt-10 mb-10 h-80">
+  <div className="p-8 md:p-12 lg:px-16 lg:py-14">
     <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h2 className="text-2xl font-bold text-gray-900 md:text-2xl">
       TRAVELOUTTTT <br></br> Where Your Dreams Meet Adventure!
@@ -160,7 +160,7 @@ function Images() {
   <img
     alt=""
     src="src/assets/pexels-michael-block-1691617-3225517.jpg"
-    className="h-96 w-full object-cover sm:h-2/5"
+    className="h-80 w-full object-cover sm:h-2/5"
   />
 </section>
       </div>
