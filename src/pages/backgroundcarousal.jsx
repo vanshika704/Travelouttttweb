@@ -62,7 +62,7 @@ const Gallery = () => {
           <div className="overlay-content absolute top-0 left-0 w-full h-full flex flex-col items-center text-center p-4 bg-black bg-opacity-50 text-white">
             <Navbar />
             <div className="companyname mb-4 text-2xl sm:text-3xl lg:text-4xl font-bold">
-              <img src={logo} alt="logo" className="w-auto mt-10 h-80 sm:w-20 lg:w-96 sm:h-40 lg:h-60 " />
+              <img src={logo} alt="logo" className="w-auto mt-10 h-80 sm:w-20 lg:w-auto sm:h-40 lg:h-80 " />
             </div>
             <div className="discover text-xl sm:text-xs md:text-xs lg:text-xl mt-0 mb-10 sm:mb-0  font-poppins-bold">
               Discover Life : Don&apos;t Listen To What They Say, Go See
