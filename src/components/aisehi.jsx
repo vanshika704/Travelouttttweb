@@ -5,7 +5,7 @@ const SocialMediaCard = ({ platform, image1, icon }) => {
   return (
     <div className="relative bg-white rounded-tl-3xl rounded-2xl shadow-lg w-48 h-64 mt-60 p-4 m-4">
       {/* Circular Images */}
-      <div className="absolute -top-8 left-6 w-16 h-16 rounded-full border-4 border-white overflow-hidden">
+      <div className="absolute -top-8 left-0 w-16 h-16 rounded-full border-4 border-white overflow-hidden">
         <img src={image1} alt="User 1" className="w-full h-full object-cover" />
       </div>
      

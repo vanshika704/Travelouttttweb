@@ -1,22 +1,23 @@
 import SocialMediaCard from "../components/aisehi";
+import image3 from '../assets/pexels-michael-block-1691617-3225517.jpg'
 function Searchall (){
     return (<><div className="bg-neutral-900 h-screen"> <div className="flex justify-center gap-6 mt-30">
         <SocialMediaCard
           platform="Instagram"
-          image1="https://example.com/image1.jpg"
-          image2="https://example.com/image2.jpg"
+          image1={image3}
+        
           icon="fab fa-instagram"
         />
         <SocialMediaCard
           platform="Twitter - X"
-          image1="https://example.com/image3.jpg"
-          image2="https://example.com/image4.jpg"
+          image1={image3}
+       
           icon="fab fa-twitter"
         />
         <SocialMediaCard
           platform="LinkedIn"
-          image1="https://example.com/image5.jpg"
-          image2="https://example.com/image6.jpg"
+          image1={image3}
+          
           icon="fab fa-linkedin"
         />
       </div></div></>)
