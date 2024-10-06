@@ -78,6 +78,7 @@ const Gallery = () => {
           </div>
         </div>
         <div className='h-32 w-full bg-neutral-600'><Images /></div>
+       
       </div>
     );
 };

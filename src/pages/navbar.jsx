@@ -5,7 +5,7 @@ import '../index.css';
 function Navbar() {
   return (
     <nav className="bg-slate-500/20 border border-gray-200 shadow-lg font-bold h-10 rounded-lg w-[60%] mx-auto">
-      <div className="container flex items-center justify-between px-4 lg:px-8 h-full">
+      <div className="container flex items-center justify-between px-4 lg:px-8 h-full ">
         
         {/* Mobile menu button (uncomment and adjust as needed)
         <button
