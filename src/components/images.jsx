@@ -3,8 +3,8 @@ import confetti from "canvas-confetti";
 function Images() {
   const triggerConfetti = () => {
     confetti({
-      particleCount: 100,
-      spread: 70,
+      particleCount: 500,
+      spread: 100,
       origin: { y: 0.6 },
     });
   };
