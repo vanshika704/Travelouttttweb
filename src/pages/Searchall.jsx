@@ -25,12 +25,12 @@
 // export default Searchall;
 import SocialMediaCard from "../components/aisehi";
 import DestinationCard from "../components/aisehi"; // Import your DestinationCard component
-import image1 from '../assets/image1.jpg'; // Example image for Natural Wonders
-import image2 from '../assets/image1.jpg'; // Example image for Cultural & Historical Sites
-import image3 from '../assets/image1.jpg'; // Example image for Urban Destinations
-import image4 from '../assets/image1.jpg'; // Example image for Adventure & Activities
-import image5 from '../assets/image1.jpg'; // Example image for Unique Experiences
-import image6 from '../assets/image1.jpg'; // Example image for Lesser-Known Gems
+import image1 from '../assets/logo.png'; // Example image for Natural Wonders
+import image2 from '../assets/logo.png'; // Example image for Cultural & Historical Sites
+import image3 from '../assets/logo.png'; // Example image for Urban Destinations
+import image4 from '../assets/logo.png'; // Example image for Adventure & Activities
+import image5 from '../assets/logo.png'; // Example image for Unique Experiences
+import image6 from '../assets/logo.png'; // Example image for Lesser-Known Gems
 
 const destinations = [
   { category: "Natural Wonders", places: ["Yellowstone", "Maldives", "Himalayas"], image: image1 },
