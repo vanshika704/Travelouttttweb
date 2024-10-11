@@ -41,11 +41,49 @@ const destinations = [
   { category: "Lesser-Known Gems", places: ["Hallstatt", "Faroe Islands", "Cotswolds"], image: image6 },
 ];
 
+// function Searchall() {
+//   return (
+//     <>
+//       <div className="bg-neutral-900 h-full">
+//         <div className="flex justify-center gap-6 mt-0">
+//           <SocialMediaCard
+//             platform="Instagram"
+//             image1={image3}
+//             icon="fab fa-instagram"
+//           />
+//           <SocialMediaCard
+//             platform="Twitter - X"
+//             image1={image3}
+//             icon="fab fa-twitter"
+//           />
+//           <SocialMediaCard
+//             platform="LinkedIn"
+//             image1={image3}
+//             icon="fab fa-linkedin"
+//           />
+//         </div>
+
+//         <div className="flex flex-wrap justify-center mt-10 gap-6">
+//           {destinations.map((category, index) => (
+//             <DestinationCard 
+//               key={index} 
+//               category={category.category} 
+//               places={category.places} 
+//               image1={category.image} // Pass the image for each destination
+//             />
+//           ))}
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
+
+// export default Searchall;
 function Searchall() {
   return (
     <>
-      <div className="bg-neutral-900 h-full">
-        <div className="flex justify-center gap-6 mt-0">
+      <div className="bg-neutral-900 h-screen">
+        <div className="flex justify-center gap-6 mt-10">
           <SocialMediaCard
             platform="Instagram"
             image1={image3}
@@ -69,7 +107,7 @@ function Searchall() {
               key={index} 
               category={category.category} 
               places={category.places} 
-              image1={category.image} // Pass the image for each destination
+              image1={category.image} // Pass the category image if needed
             />
           ))}
         </div>
@@ -77,5 +115,4 @@ function Searchall() {
     </>
   );
 }
-
 export default Searchall;

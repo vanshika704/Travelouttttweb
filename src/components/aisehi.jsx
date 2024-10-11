@@ -44,7 +44,10 @@ const DestinationCard = ({ category, places, image1 }) => {
         <ul className="mt-2 text-gray-600 list-disc list-inside">
           {places && places.length > 0 ? (
             places.map((place, index) => (
-              <li key={index}>{place}</li>
+              <li key={index} className="flex items-center mt-1">
+                <img src={place.image} alt={place.name} className="w-8 h-8 rounded-full mr-2" /> {/* Place Image */}
+                {place.name}
+              </li>
             ))
           ) : (
             <li>No places available</li> // Fallback for no places
@@ -59,7 +62,10 @@ const DestinationCard = ({ category, places, image1 }) => {
 // PropTypes validation
 DestinationCard.propTypes = {
   category: PropTypes.string.isRequired,  // category must be a string and required
-  places: PropTypes.arrayOf(PropTypes.string).isRequired, // places must be an array of strings and required
+  places: PropTypes.arrayOf(PropTypes.shape({
+    name: PropTypes.string.isRequired, // name of the place is required
+    image: PropTypes.string.isRequired, // image URL for the place is required
+  })).isRequired, // places must be an array of objects with name and image
   image1: PropTypes.string.isRequired // image1 must be a string (URL) and required
 };
 
