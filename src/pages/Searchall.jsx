@@ -44,8 +44,8 @@ const destinations = [
 function Searchall() {
   return (
     <>
-      <div className="bg-neutral-900 h-screen">
-        <div className="flex justify-center gap-6 mt-10">
+      <div className="bg-neutral-900 h-full">
+        <div className="flex justify-center gap-6 mt-0">
           <SocialMediaCard
             platform="Instagram"
             image1={image3}
