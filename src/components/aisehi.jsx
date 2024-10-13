@@ -1,33 +1,3 @@
-
-// import PropTypes from 'prop-types';
-
-// const SocialMediaCard = ({ platform, image1, icon }) => {
-//   return (
-//     <div className="relative bg-white rounded-tl-3xl rounded-2xl shadow-lg w-48 h-64 mt-60 p-4 m-4">
-//       {/* Circular Images */}
-//       <div className="absolute -top-3  right-36 w-24 h-24 rounded-full border-8 border-neutral-900 overflow-hidden">
-//         <img src={image1} alt="User 1" className="w-full h-full object-cover" />
-//       </div>
-     
-//       {/* Content inside the card */}
-//       <div className="mt-12 text-center">
-//         <i className={`${icon} text-4xl text-gray-400`}></i> {/* Icon */}
-//         <h3 className="mt-4 text-xl font-bold">{platform}</h3>
-//         <p className="text-gray-500 mt-2">more &gt;</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// // PropTypes validation
-// SocialMediaCard.propTypes = {
-//   platform: PropTypes.string.isRequired,  // platform must be a string and required
-//   image1: PropTypes.string.isRequired,    // image1 must be a string (URL) and required
-//   image2: PropTypes.string.isRequired,    // image2 must be a string (URL) and required
-//   icon: PropTypes.string.isRequired       // icon must be a string (e.g., FontAwesome class name) and required
-// };
-
-// export default SocialMediaCard;
 import PropTypes from 'prop-types';
 
 const DestinationCard = ({ category, places, image1 }) => {
@@ -38,35 +8,32 @@ const DestinationCard = ({ category, places, image1 }) => {
         <img src={image1} alt={category} className="w-full h-full object-cover" />
       </div>
 
-      {/* Content inside the card */}
-      <div className="mt-12 text-center">
-        <h3 className="mt-4 text-xl font-bold">{category}</h3>
-        <ul className="mt-2 text-gray-600 list-disc list-inside">
-          {places && places.length > 0 ? (
-            places.map((place, index) => (
-              <li key={index} className="flex items-center mt-1">
-                <img src={place.image} alt={place.name} className="w-8 h-8 rounded-full mr-2" /> {/* Place Image */}
-                {place.name}
-              </li>
-            ))
-          ) : (
-            <li>No places available</li> // Fallback for no places
-          )}
-        </ul>
-        <p className="text-gray-500 mt-2">more &gt;</p>
+      {/* Destination Image */}
+      <div className="mt-12 h-32">
+        {places && places.length > 0 ? (
+          <img src={places[0].image} alt={places[0].name} className="w-full h-full object-cover rounded-md" />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-gray-200 rounded-md">
+            <p>No Image Available</p> {/* Fallback if no image is available */}
+          </div>
+        )}
+      </div>
+
+      {/* Category Name */}
+      <div className="text-center mt-2">
+        <h3 className="text-xl font-bold">{category}</h3>
       </div>
     </div>
   );
 };
 
-
 DestinationCard.propTypes = {
-  category: PropTypes.string.isRequired,  // category must be a string and required
+  category: PropTypes.string.isRequired,
   places: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired, // name of the place is required
-    image: PropTypes.string.isRequired, // image URL for the place is required
-  })).isRequired, // places must be an array of objects with name and image
-  image1: PropTypes.string.isRequired // image1 must be a string (URL) and required
+    name: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+  })).isRequired,
+  image1: PropTypes.string.isRequired,
 };
 
 export default DestinationCard;
