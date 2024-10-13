@@ -59,7 +59,7 @@ const DestinationCard = ({ category, places, image1 }) => {
   );
 };
 
-// PropTypes validation
+
 DestinationCard.propTypes = {
   category: PropTypes.string.isRequired,  // category must be a string and required
   places: PropTypes.arrayOf(PropTypes.shape({
