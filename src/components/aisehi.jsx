@@ -4,10 +4,12 @@ const DestinationCard = ({ category, places, image1 }) => {
   return (
     <div className="relative bg-white rounded-tl-2xl rounded-xl shadow-lg w-48 h-64 mt-6 p-4 m-4">
       {/* Circular Image */}
-      <div className="absolute -top-5 right-36 w-24 h-24 rounded-full border-8 border-neutral-900 flex items-center justify-center">
+      <div className="absolute -top-5 right-36 w-24 h-24 rounded-full border-8 border-neutral-900 flex items-center justify-evenly">
         <img src={image1} alt={category} className="w-24 h-24 object-cover rounded-full" />
       </div>
-
+      <div className="text-center mt-0 ml-3">
+        <h3 className="text-xl font-bold">{category}</h3>
+      </div>
       {/* Destination Image */}
       <div className="mt-12 h-32">
         {places && places.length > 0 ? (
@@ -20,9 +22,7 @@ const DestinationCard = ({ category, places, image1 }) => {
       </div>
 
       {/* Category Name */}
-      <div className="text-center mt-2">
-        <h3 className="text-xl font-bold">{category}</h3>
-      </div>
+      
     </div>
   );
 };
