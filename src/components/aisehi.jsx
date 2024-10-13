@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 
 const DestinationCard = ({ category, places, image1 }) => {
   return (
-    <div className="relative bg-white rounded-tl-3xl rounded-2xl shadow-lg w-48 h-64 mt-6 p-4 m-4">
+    <div className="relative bg-white rounded-tl-2xl rounded-xl shadow-lg w-48 h-64 mt-6 p-4 m-4">
       {/* Circular Image */}
-      <div className="absolute -top-3 right-36 w-24 h-24 rounded-full border-8 border-neutral-900 overflow-hidden">
-        <img src={image1} alt={category} className="w-full h-full object-cover" />
+      <div className="absolute -top-5 right-36 w-24 h-24 rounded-full border-8 border-neutral-900 flex items-center justify-center">
+        <img src={image1} alt={category} className="w-24 h-24 object-cover rounded-full" />
       </div>
 
       {/* Destination Image */}
