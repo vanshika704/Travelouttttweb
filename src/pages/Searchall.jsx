@@ -51,7 +51,7 @@ function Searchall() {
             key={index} 
             category={category.category} 
             places={category.places} 
-            image1={category.image} // Pass the circular image
+            image1={category.image} 
           />
         ))}
       </div>
