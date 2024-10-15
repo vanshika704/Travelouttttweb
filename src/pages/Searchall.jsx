@@ -5,7 +5,7 @@ import image2 from '../assets/image2.jpg'; // Example image for Cultural & Histo
 import image3 from '../assets/image3.jpg'; // Example image for Urban Destinations
 import image4 from '../assets/logo.png'; // Example image for Adventure & Activities
 import image5 from '../assets/pexels-ekrulila-2305765.jpg'; // Example image for Unique Experiences
-import image6 from '../assets/pexels-michael-block-1691617-3225517.jpg'; // Example image for Lesser-Known Gems
+import image6 from '../assets/pexels-michael-block-1691617-3225517.jpg'; 
 import image7 from '../assets/pexels-habi-dompil-1539296-2964163.jpg'
 const destinations = [
   { 
