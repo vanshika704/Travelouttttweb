@@ -2,7 +2,7 @@
 import DestinationCard from "../components/aisehi"; // Import your modified DestinationCard component
 import image1 from '../assets/image1.jpg'; // Example image for Natural Wonders
 import image2 from '../assets/image2.jpg'; // Example image for Cultural & Historical Sites
-import image3 from '../assets/image3.jpg'; // Example image for Urban Destinations
+import image3 from '../assets/image3.jpg'; 
 import image4 from '../assets/logo.png'; 
 import image5 from '../assets/pexels-ekrulila-2305765.jpg'; 
 import image6 from '../assets/pexels-michael-block-1691617-3225517.jpg'; 
