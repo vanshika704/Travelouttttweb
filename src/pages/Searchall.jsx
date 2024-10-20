@@ -1,5 +1,5 @@
  // Assuming this is your social media card component
-import DestinationCard from "../components/aisehi"; // Import your modified DestinationCard component
+import DestinationCard from "../components/aisehi"; 
 import image1 from '../assets/image1.jpg'; 
 import image2 from '../assets/image2.jpg'; 
 import image3 from '../assets/image3.jpg'; 
