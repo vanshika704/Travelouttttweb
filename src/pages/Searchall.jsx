@@ -1,6 +1,6 @@
  // Assuming this is your social media card component
 import DestinationCard from "../components/aisehi"; // Import your modified DestinationCard component
-import image1 from '../assets/image1.jpg'; // Example image for Natural Wonders
+import image1 from '../assets/image1.jpg'; 
 import image2 from '../assets/image2.jpg'; 
 import image3 from '../assets/image3.jpg'; 
 import image4 from '../assets/logo.png'; 
