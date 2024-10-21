@@ -1,4 +1,4 @@
 function Hotels() {
-    return (<><div>briwsdbf</div></>)
+    return (<><div>ADD hotels here</div></>)
 }
 export default  Hotels;
