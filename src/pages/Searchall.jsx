@@ -42,16 +42,17 @@ const destinations = [
 
 function Searchall() {
   return (
-    <div className="bg-neutral-900 h-[220vh] ">
-     <div className="text-5xl ml-20 mb-20  text-slate-50 font-bold ">Categories to explore....</div>
-
-      <div className="flex flex-wrap justify-center mt-0 gap-6">
+    <div className="bg-neutral-900 min-h-screen flex flex-col items-center">
+      <div className="text-5xl mb-16 mt-10 text-slate-50 font-bold text-center">
+        Categories to explore....
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {destinations.map((category, index) => (
-          <DestinationCard 
-            key={index} 
-            category={category.category} 
-            places={category.places} 
-            image1={category.image} 
+          <DestinationCard
+            key={index}
+            category={category.category}
+            places={category.places}
+            image1={category.image}
           />
         ))}
       </div>
